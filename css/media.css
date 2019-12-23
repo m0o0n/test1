@@ -1,0 +1,184 @@
+@media(max-width: 1000px)
+{
+	
+}
+
+@media(max-width: 900px)
+{
+	.form_container
+	{
+		height: auto;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact_info{
+		left: -105px;
+	}
+    .text_menu1
+	{
+		display: none;
+	}
+	
+	.media_menu1
+	{
+		display: block;
+	}
+}
+
+@media(max-width: 660px)
+{
+	.inputs
+	{
+		display: grid;
+	grid-template-areas: 
+		"inp_div1 inp_div1"
+		"inp_div2 inp_div2"
+		"inp_div3 inp_div3"
+		"inp_div4 inp_div4"
+		"inp_div5 inp_div5";
+	grid-template-rows: 50px 50px 50px 150px 50px;
+	grid-template-columns:200px 200px;
+	grid-row-gap: 30px;
+	grid-column-gap: 15px;
+		justify-content: center;
+	}
+	
+.inp_div1
+{
+	position: relative;
+	height: 50px;
+	width: 415px;
+	background: white;
+}
+
+.inp_div2
+{
+	position: relative;
+	height: 50px;
+	width: 415px;
+	background: white;
+}
+	
+	.inp_div3
+{
+	position: relative;
+	height: 50px;
+	width: 415px;
+	background: white;
+}
+
+.inp_div4
+{
+	position: relative;
+	height: 150px;
+	width: 415px;
+	background: white;
+}
+
+.contact_info
+{
+	left: 0;
+}
+	
+}
+
+@media(max-width: 550px)
+{
+	.part1_footer
+	{
+		display: flex;
+		max-width: 550px;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	
+	.part1_footer > div
+	{
+		position: relative;
+		width: 50%;
+	}
+	
+	.top_menu
+	{
+		max-width: 450px;
+	}
+    .low_sizeText1
+	{
+		font-size: 10px;
+	}
+	
+	.big_sizeText1
+	{
+		font-size: 41px;
+	}
+    .center_text1
+    {
+    color: white;
+    position: absolute;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    top: 190px;
+    left: calc(50% - 160px);
+    text-align: center;
+    
+    }
+}
+
+@media(max-width: 410px)
+{
+	
+	
+	.inputs
+	{
+		display: grid;
+	grid-template-areas: 
+		"inp_div1 inp_div1"
+		"inp_div2 inp_div2"
+		"inp_div3 inp_div3"
+		"inp_div4 inp_div4"
+		"inp_div5 inp_div5";
+	grid-template-rows: 50px 50px 50px 150px 50px;
+	grid-template-columns:150px 150px;
+	grid-row-gap: 30px;
+	grid-column-gap: 15px;
+		justify-content: center;
+	}
+	
+.inp_div1
+{
+	position: relative;
+	height: 50px;
+	width: 315px;
+	background: white;
+}
+
+.inp_div2
+{
+	position: relative;
+	height: 50px;
+	width: 315px;
+	background: white;
+}
+	
+	.inp_div3
+{
+	position: relative;
+	height: 50px;
+	width: 315px;
+	background: white;
+}
+
+.inp_div4
+{
+	position: relative;
+	height: 150px;
+	width: 315px;
+	background: white;
+}
+
+.contact_info
+{
+	left: 0;
+}
+}

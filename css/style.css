@@ -1,0 +1,948 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.default
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+}
+
+.wrap
+{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(http://unvab.com/snow-free-html/assets/images/home-7.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 600px rgba(0%, 0%, 0%, .6);
+}
+
+.top_menu_container1
+{
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    height: 100px;
+    width: 100%;
+}
+
+.top_menu1
+{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+    color: white;
+}
+
+.logo1
+{
+    font-size: 35px;
+}
+
+.text_menu1
+{
+    color: darkgrey;
+}
+
+.text_menu1 a
+{
+    padding: 0 10px;
+}
+
+
+
+.text_menu1 a:hover
+{
+   transition: .3s;
+    color: grey;
+    cursor: pointer;
+}
+
+.center_text1
+{
+    color: white;
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    top: 190px;
+    left: calc(50% - 250px);
+    text-align: center;
+    
+}
+
+.low_sizeText1
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 1100;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: .2em;
+}
+
+
+.big_sizeText1
+{
+    font-size: 51px;
+}
+.font1
+{
+    font-size: 51px;
+}
+
+
+.center_text1 input
+{
+    
+    top: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #2b2727;
+    height: 53px;
+    width: 200px;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+}
+
+.down_circle1
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 25px);
+    color: white;
+}
+
+.media_view1
+{
+    display: none;
+}
+
+.media_menu1
+{
+    display: none;
+    font-size: 35px;
+    margin-top: 25px;
+    
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+.wrapper
+{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(http://unvab.com/snow-free-html/assets/images/home-7.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 600px rgba(0%, 0%, 0%, .6);
+}
+
+.top_menu_container
+{
+    position: fixed;
+    width: 100%;
+    max-width: 1500px;
+    z-index: 600; 
+}
+
+.top_menu
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 50px;
+    padding: 33px 30px;
+    z-index: 999999;
+    font-size: 14px;
+	position: relative;
+	max-width: 1500px;
+	width: 100%;
+    
+}
+
+.logo
+{
+    
+    color: white;
+    align-self: center;
+    position: relative;
+    font-size: 35px;
+}
+
+.text_menu
+{
+    color: darkgrey;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+	right: 85px;
+    
+	
+    align-self: center;
+}
+
+.media_menu
+{
+	font-size: 40px;
+	display: none;
+	color: white;
+	position: absolute;
+	right: 100px;
+	cursor: pointer;
+	
+}
+
+.media_view1
+{
+	position: absolute;
+	z-index: 6000;
+	width: 100%;
+	height: 100%;
+	background: black;
+	display: none;
+	top: 0;
+	
+}
+
+.exit1
+{
+	position: relative;
+	float: right;
+	margin-right: 35px;
+	margin-top: 35px;
+	color: white;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.menuMView1
+{
+	position: relative;
+	display: flex;
+	margin-top: 250px;
+	align-items: center;
+	flex-direction: column;
+}
+
+.menuMView1 a
+{
+	padding: 10px;
+	display: block;
+	font-size: 25px;
+	font-weight: 700;
+	cursor: pointer;
+	color: white;
+}
+
+.menuMView1 a:hover
+{
+	transition: all .5s;
+	color: gray;
+}
+
+.footerMView1
+{
+	color: dimgray;
+	font-size: 25px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+
+.footerMView1 i
+{
+	padding: 0 12px;
+}
+
+.footerMView1 i:hover
+{
+	transition: all .5s;
+    color: gray;
+}
+
+
+.text_menu a
+{
+    position: relative;
+    padding: 0 17px;
+    display: block;
+}
+
+.text_menu a:hover
+{
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+
+
+.center_text
+{
+    color: white;
+    width: 100%;
+    position: relative;
+    top: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.low_sizeText{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 1100;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: .2em;
+}
+
+
+.big_sizeText
+{
+    font-size: 51px;
+}
+.font
+{
+    font-size: 51px;
+}
+
+.center_text input
+{
+    position: relative;
+    top: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #2b2727;
+    height: 53px;
+    width: 200px;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+}
+
+.down_circle
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 365px;
+    color: white;
+}
+
+
+.content_part1
+{
+    position: relative;
+    direction: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content_text
+{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.big_context
+{
+    font-weight: bold;
+    position: relative;
+    font-size: 39px;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 650px;
+    margin-bottom: 15px;
+    
+}
+
+.small_context
+{
+    position: relative;
+    font-size: 15px;
+    width: 70%;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+
+.content_text img
+{
+    position: relative;
+    height: 50px;
+    width: 225px;
+    margin-bottom: 80px;
+}
+
+.part1_footer
+{
+    position: relative;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    background: url(http://unvab.com/snow-free-html/assets/images/bg-pattern.jpg);
+    color: white;
+    align-items: center;
+}
+
+.part1_footer > div
+{
+    
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 21%;
+    justify-content: space-around;
+    
+}
+.part1_footer > div a
+{
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    
+}
+
+.part1_footer > div i
+{
+    font-size: 50px;
+    
+}
+
+.icon_part1_footer_text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.proj_area
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.block::after
+{
+    content: '';
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: black;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.block:hover::after
+{
+    content: '';
+    display: block;
+    opacity: 0.5;
+    
+    
+}
+
+.part2_cont_txt
+{
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	text-align: center;
+	padding: 80px 0 50px 0;
+	margin: 0 auto;
+}
+
+.part2_footer
+{
+    position: relative;
+    margin-top: 95px;
+    min-height: 500px;
+	height: auto;
+    width: 100%;
+    background: url(http://unvab.com/snow-free-html/assets/images/bg-pattern.jpg);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+
+.body_slider
+{
+    position: relative;
+    width: 90%;
+    min-height: 170px;
+	height: auto;
+	margin: auto;
+    
+}
+
+
+.slick-slide 
+{
+	
+	outline: none;
+}
+.polosa .slick-slide p
+{
+	padding: 0 35px;
+	width: 80%;
+	height: auto;
+	max-width: 900px;
+	margin: auto;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	
+}
+
+
+.ain_sl
+{
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.slick-dots li button:before 
+{
+	content: '';
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background: white;
+	opacity: 1;
+}
+
+
+.part3_content
+{
+	position: relative;
+	background: #fafafa;
+	
+}
+
+.p3_first_text
+{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.p3_first_text h1
+{
+	width: 100%;
+	height: 40px;
+	margin: 80px 0 35px;
+	font-size: 39px;
+}
+
+.p3_first_text p
+{
+	width: 100%;
+	height: 50px;
+	letter-spacing: .004em;
+	line-height: 1.65;
+	color: #5f5f5f;
+	max-width: 600px;
+	font-size: 15px;
+	margin: 0 auto;
+	margin-bottom: 55px;
+}
+
+.part3_slider{
+	position: relative;
+	height: 150px;
+	background: white;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.part3_slider div img
+{
+	width: 180px;
+	height: 130px;
+}
+
+
+.p3_cont_slider
+{
+	height: 410px;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.img_p3_sl
+{
+	position: relative;
+	widows: 100%;
+	height: 180px;
+}
+
+.content_part3 body{background: #fafafa;}
+
+.img_p3_sl button
+{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	height: 30px;
+	width: 90px;
+	background: #252525;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.bg_butt::after
+{
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.bg_butt:hover::after
+{
+	content: '';
+	display: block;
+	opacity: 0.1;
+}
+
+.bg_img
+{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	
+}
+.bg_img::after
+{
+	content: '';
+	position: absolute;
+	z-index: 100;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: 0;
+	transition: all .5s;
+}
+
+.bg_img:hover::after
+{
+	content: '';
+	display: block;
+	opacity: 0.5;
+}
+
+.p3_sl
+{
+	position: relative;
+	width: 300px;
+	height: 360px;
+	background: white;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.03);
+	margin: 0 20px;
+}
+
+.text_p3_sl
+{
+	position: relative;
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	margin: 25px auto;
+}
+
+.headline
+{
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 0.004em;
+	line-height: 1.1;
+	outline: none;
+}
+
+
+.date_p3_sl
+{
+	font-size: 13px;
+	letter-spacing: 0.004em;
+}
+
+.text_p3_sl p
+{
+	color: #5f5f5f;
+	letter-spacing: 0.004em;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+/*dots*/
+
+.slick-dots1 li button:before 
+{
+	content: '';
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background: grey;
+	opacity: 1;
+}
+
+
+
+.part4
+{
+	position: relative;
+	display: flex;
+	width: 100%;
+	background-color: #f5f5f5;
+	
+}
+
+
+.form_container
+{
+	position: relative;
+	display: flex;
+	height: 500px;
+	width: 100%;
+	padding: 100px 0 0 0;
+	max-width: 1000px;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.contact_info
+{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+	padding: 0 15px;
+}
+
+.contact_info p
+{
+	line-height: 1.4;
+	letter-spacing: 0.004em;
+}
+
+.contact_info a h1
+{
+	font-size: 15px;
+	display: inline-block;
+	padding: 0 11px;
+}
+
+.inputs
+{
+	position: relative;
+	padding: 0 15px;
+	margin-top: 26px;
+	width: 600px;
+	display: grid;
+	grid-template-areas: 
+		"inp_div1 inp_div2"
+		"inp_div3 inp_div3"
+		"inp_div4 inp_div4"
+		"inp_div5 inp_div5";
+	grid-template-rows: 50px 50px 150px 50px;
+	grid-template-columns:300px 300px;
+	grid-row-gap: 30px;
+	grid-column-gap: 15px;
+}
+
+.inputs input
+{
+	position: relative;
+	border: none;
+	background: transparent;
+	line-height: 50px;
+	left: 25px;
+	outline: none;
+}
+
+.inp_div1
+{
+	position: relative;
+	height: 50px;
+	width: 300px;
+	background: white;
+}
+
+.inp_div2
+{
+	position: relative;
+	height: 50px;
+	width: 300px;
+	background: white;
+}
+
+.inp_div3
+{
+	position: relative;
+	height: 50px;
+	width: 615px;
+	background: white;
+}
+
+.inp_div4
+{
+	position: relative;
+	height: 150px;
+	width: 615px;
+	background: white;
+}
+
+
+.inp_div5 button
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #252525;
+	color: white;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+.inp_div5
+{
+	position: relative;
+	width: 150px;
+	height: 50px;
+}
+.inp_div5 button::after
+{
+	content: '';
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	transition: all .4s;
+	background: white;
+	opacity: 0;
+}
+
+.inp_div5 button:hover::after
+{
+	content: '';
+	opacity: .2;
+	display: block;
+}
+
+
+.main_footer
+{
+	position: relative;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	background-color: #ebebeb;
+}
+
+.main_footer div
+{
+	padding: 20px 0 0 0;
+}
+
+.icons i
+{
+	font-size: 18px;
+	padding: 0 8px;
+	color: gray;
+	cursor: pointer;
+}
+
+
+.icons i:hover
+{
+	color: black;
+	transition: .5s;
+}
+
+.parag
+{
+	font-size: 15px;
+	color: gray;
+}
+
+
+
+
