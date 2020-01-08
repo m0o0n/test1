@@ -182,3 +182,14 @@
 	left: 0;
 }
 }
+
+@media(max-width: 320px){
+/*
+    body{
+        width: 320px;
+    }
+*/
+    .top_menu1{
+        max-width: 320px !important;
+    }
+}
